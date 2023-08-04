@@ -1,0 +1,131 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* common styles and utilities */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+section {
+    padding: 60px 0px;
+}
+
+
+.link-button {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    background-color: #E02C6D;
+}
+
+.link-button i {
+    transition: transform .5s;
+}
+
+.link-button:hover i {
+    transform: rotate(360deg);
+    transition: transform .5s;
+}
+
+/* Top Banner Styles */
+#TopBanner {
+    background-color: #2D25A0;
+    margin-bottom: 30px;
+}
+
+.top-banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 0px 100px;
+}
+
+.top-banner-text {
+    color: #FFFFFF;
+
+}
+
+.top-banner-text h1 {
+    font-size: 64px;
+}
+
+.fa-arrow-right {
+    margin-left: 4px;
+}
+
+
+
+.top-banner-img img {
+    width: 556px;
+    height: 438px;
+}
+
+/* players part styles */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    align-items: center;
+    margin: 0 100px;
+
+}
+
+.player {
+    height: 475px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 10px 10px 50px gray;
+}
+
+.player img {
+    width: 300px;
+    height: 256px;
+}
+
+/* hightlight part style */
+.hightlight {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 0 100px;
+}
+
+.hightlight-text-area h1 {
+    font-size: 48px;
+}
+
+.hightlight-text-area p {
+    font-size: 16px;
+    padding-right: 56px;
+    padding-bottom: 20px;
+}
+
+.hightlight-image-area img {
+    width: 567px;
+    height: 527px;
+}
+
+/* footer part styles */
+footer {
+    padding: 24px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img {
+    height: 110px;
+}
+
+.social-icon {
+    padding: 24px 0;
+}
+
+.social-icon i {
+    padding: 8px;
+    font-size: 24px;
+    color: #969bab;
+    background-color: #e7e7e8;
+    border-radius: 25px;
+}
